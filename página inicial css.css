@@ -1,0 +1,115 @@
+/*color scheme: https://color.adobe.com/pt/Color-Theme-1-color-theme-11440448/ */
+
+/* body */
+body{
+  background-color: #DFCFB4;
+}
+
+/*barra de navegação*/
+#navbar{
+  display: flex;
+  flex-flow: row wrap;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 0 0 -19px;
+  padding: 0;
+  background-color: #F01E31;
+  text-align: center
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li{
+  float: left;
+}
+
+#navbar a{
+  color:#E8CEB3;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  padding: 10px;
+  float: left;
+}
+
+#navbar a:hover{
+  background-color: rgb(255, 34, 52);
+}
+@media screen and (max-width: 700px){
+  #navbar{
+    flex-direction: column;
+  }
+  #navbar a{
+    float: none;
+  }
+}
+
+/* sobre (welcome-section)*/
+#welcome-section{
+  top: 0;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+#welcome-section h1{
+color: #7B6E41;
+text-align: center;
+}
+#welcome-section p{
+  color:#7B6E41;
+  text-align: center;
+}
+
+/* projetos */
+#projects{
+  min-height: 45vh;
+  padding-top: 35vh;
+  display: grid;
+grid-template-columns: 66% coluna principal 33% coluna secundária;
+grid-template-rows: repeat(3, 33%);
+}
+#destaqueprincipal{
+  width: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+.destaquesecundario{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.project-tile{
+  text-decoration: none;
+  text-align: center;
+  color: #7B6E41;
+  background-color:#DBC4A5;
+  padding: 10px ;
+  border: 1px solid #DBC4A5;
+}
+#projects a{
+  color: #7B6E41;
+  justify-self: center;
+}
+#projects:not(#destaqueprincipal) a{
+  justify-self: stretch;
+}
+#projects a:hover{
+background-color: rgb(240, 214, 181)
+}
+#projects:not(#vejamais) a:hover{
+  background-color:#DFCFB4;
+}
+#vejamais{
+  background-color:#DFCFB4;
+text-decoration: none;
+text-align: right;
+}
+
+/*contato */
+#contato{
+  text-align: center;
+}
