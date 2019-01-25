@@ -1,4 +1,9 @@
-/*color scheme: https://color.adobe.com/pt/Color-Theme-1-color-theme-11440448/ */
+/*color scheme: https://color.adobe.com/pt/Color-Theme-1-color-theme-11440448/ 
+coisas novas: roxo pra navbar, com letras mais claras e fundo mais escuro e inverte quando passa o mouse
+ao invés de destaques, categorias em círculos verdes de tons diferentes (audiovisual, reportagens, outros) que levam pra outra página
+footer com nome grande, telefone, emails e linkedin, fundo cinza claro, letras cinza bem escuro, tudo no canto esquerdo
+rebecca gompertz com fonte fancy em preto, minibio tb em preto mas em outra fonte 
+página com a reps segue ordem dos circulos, tem chapéu */
 
 /* body */
 body{
