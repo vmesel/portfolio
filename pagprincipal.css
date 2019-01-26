@@ -77,6 +77,28 @@ top: 0;
   font-weight: lighter;
   color: #80853e;
   }
+  #principal ul{
+      font-family: projetos;
+      font-weight:lighter;
+      font-size: 30px;
+  }
+  #principal img{
+      width: 20%;
+      border-radius: 50%;
+  }
+  #reps{
+color: #96a341;
+  }
+  #outros{
+  color:  #adda85;
+  }
+  #av{
+      color: #80853e;
+  }
+  .exemplos{
+      font-family:navbarEcontatos; /*isso tem que mudar*/
+  font-size: 20px;
+    }
   /*contato */
 footer{
     font-family: navbarEcontatos;
@@ -92,12 +114,12 @@ footer{
      padding-top: 2vh;
    }
    footer p{
-     font-size: 4vw;
+     font-size: 30px;
    }
    footer a{
      text-decoration: none;
      color: #4b494d;
-     font-size: 2vw;
+     font-size: 15px;
    }
    footer a:hover{
      color: #4b494d;
