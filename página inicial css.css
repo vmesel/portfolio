@@ -7,7 +7,7 @@ página com a reps segue ordem dos circulos, tem chapéu */
 
 /* body */
 body{
-  background-color: white;
+  background-color: #dfdce4;
 }
 
 /*barra de navegação*/
@@ -80,6 +80,7 @@ font-weight: lighter;
 }
 #welcome-section p{
   text-align: center;
+  color: #adda85;
 }
 
 /* projetos */
@@ -96,7 +97,7 @@ font-weight: lighter;
 font-family: projetos;
 font-size: 8vw;
 font-weight: lighter;
-color: #cbd277;
+color: #80853e;
 }
 #circulos{
   padding-top: 8vh;
@@ -117,12 +118,15 @@ align-items: baseline;
 footer{
  font-family: navbarEcontatos;
   min-height: 30vh;
-  background-color: #9a93a1;
+  background-color: #bfb8c7;
   color: #4b494d;
   text-align: left;
 width: 109%;
 margin: 0 0 0 -19px;
 padding: 0;
+}
+#footer{
+  padding-top: 2vh;
 }
 footer p{
   font-size: x-large;
