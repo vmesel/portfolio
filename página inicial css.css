@@ -1,4 +1,4 @@
-/*color scheme: https://color.adobe.com/pt/Color-Theme-1-color-theme-11440448/ 
+/*color scheme: http://colorpalettes.net/color-palette-2032/
 coisas novas: roxo pra navbar, com letras mais claras e fundo mais escuro e inverte quando passa o mouse
 ao invés de destaques, categorias em círculos verdes de tons diferentes (audiovisual, reportagens, outros) que levam pra outra página
 footer com nome grande, telefone, emails e linkedin, fundo cinza claro, letras cinza bem escuro, tudo no canto esquerdo
@@ -7,7 +7,7 @@ página com a reps segue ordem dos circulos, tem chapéu */
 
 /* body */
 body{
-  background-color: #DFCFB4;
+  background-color: white;
 }
 
 /*barra de navegação*/
@@ -20,7 +20,7 @@ body{
   overflow: hidden;
   margin: 0 0 0 -19px;
   padding: 0;
-  background-color: #F01E31;
+  background-color: #b579ae;
   text-align: center
 }
 
@@ -35,7 +35,7 @@ ul{
 }
 
 #navbar a{
-  color:#E8CEB3;
+  color:#c8b2df;
   text-decoration: none;
   font-size: 17px;
   display: block;
@@ -44,9 +44,10 @@ ul{
 }
 
 #navbar a:hover{
-  background-color: rgb(255, 34, 52);
+  background-color:#c8b2df;
+  color: #b579ae;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 720px){
   #navbar{
     flex-direction: column;
   }
@@ -59,62 +60,54 @@ ul{
 #welcome-section{
   top: 0;
   min-height: 55vh;
-  padding-top: 45vh;
+  padding-top: 35vh;
+}
+@font-face{
+ font-family: meuNome;
+ src: url(High\ Destiny\ -\ Personal\ Use.otf);
 }
 #welcome-section h1{
-color: #7B6E41;
-text-align: center;
+color:#96a341;
+  text-align: center;
+font-family: meuNome;
+font-size: 10vw;
+font-weight: lighter;
 }
 #welcome-section p{
-  color:#7B6E41;
   text-align: center;
 }
 
 /* projetos */
 #projects{
-  min-height: 45vh;
+  min-height: 100vh;
   padding-top: 35vh;
-  display: grid;
-grid-template-columns: 66% coluna principal 33% coluna secundária;
-grid-template-rows: repeat(3, 33%);
+  display: flex;
+  flex-flow: row nowrap;
+justify-content: space-evenly;
+align-items: baseline;
 }
-#destaqueprincipal{
-  width: 100%;
-  grid-column: 1 / 2;
-  grid-row: 1 / 4;
+@media screen and (max-width: 720px){
+#projects{
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.destaquesecundario{
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-}
-.project-tile{
-  text-decoration: none;
-  text-align: center;
-  color: #7B6E41;
-  background-color:#DBC4A5;
-  padding: 10px ;
-  border: 1px solid #DBC4A5;
-}
-#projects a{
-  color: #7B6E41;
-  justify-self: center;
-}
-#projects:not(#destaqueprincipal) a{
-  justify-self: stretch;
-}
-#projects a:hover{
-background-color: rgb(240, 214, 181)
-}
-#projects:not(#vejamais) a:hover{
-  background-color:#DFCFB4;
-}
-#vejamais{
-  background-color:#DFCFB4;
-text-decoration: none;
-text-align: right;
 }
 
 /*contato */
-#contato{
-  text-align: center;
+footer{
+  min-height: 30vh;
+  background-color: #9a93a1;
+  color: #4b494d;
+  text-align: left;
+width: 109%;
+margin: 0 0 0 -19px;
+padding: 0;
+}
+footer a{
+  text-decoration: none;
+  color: #4b494d;
+}
+footer a:hover{
+  color: #4b494d;
 }
