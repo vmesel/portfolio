@@ -1,0 +1,104 @@
+/* body */
+body{
+    background-color: #dfdce4;
+  }
+  
+  /*barra de navegação*/
+  @font-face{
+    font-family: navbarEcontatos;
+    src: url(Philosopher-Regular.ttf);
+   }
+  #navbar{
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 0 -19px;
+    padding: 0;
+    background-color: #b579ae;
+    text-align: center
+  }
+  
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar li{
+    float: left;
+  }
+  
+  #navbar a{
+    color:#c8b2df;
+    text-decoration: none;
+   font-family: navbarEcontatos;
+    font-size: 17px;
+    display: block;
+    padding: 10px;
+    float: left;
+  }
+  
+  #navbar a:hover{
+    background-color:#c8b2df;
+    color: #b579ae;
+  }
+  @media screen and (max-width: 720px){
+    #navbar{
+      flex-direction: column;
+    }
+    #navbar a{
+      float: none;
+    }
+  }
+/* Projetos */
+#principal{
+    top: 0;
+      min-height: 55vh;
+      padding-top: 5vh;
+}
+@media screen and (max-width: 720px){
+#principal{
+top: 0;
+  min-height: 55vh;
+  padding-top: 35vh;
+}
+}
+@font-face{
+    font-family: projetos;
+    src: url(Shining\ Times.ttf);
+  }
+  #principal h1{
+    text-align: center;
+  font-family: projetos;
+  font-size: 8vw;
+  font-weight: lighter;
+  color: #80853e;
+  }
+  /*contato */
+footer{
+    font-family: navbarEcontatos;
+     min-height: 30vh;
+     background-color: #bfb8c7;
+     color: #4b494d;
+     text-align: left;
+   width: 109%;
+   margin: 0 0 0 -19px;
+   padding: 0;
+   }
+   #footer{
+     padding-top: 2vh;
+   }
+   footer p{
+     font-size: 4vw;
+   }
+   footer a{
+     text-decoration: none;
+     color: #4b494d;
+     font-size: 2vw;
+   }
+   footer a:hover{
+     color: #4b494d;
+   }
