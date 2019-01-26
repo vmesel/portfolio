@@ -11,6 +11,10 @@ body{
 }
 
 /*barra de navegação*/
+@font-face{
+  font-family: navbarEcontatos;
+  src: url(Philosopher-Regular.ttf);
+ }
 #navbar{
   display: flex;
   flex-flow: row wrap;
@@ -37,6 +41,7 @@ ul{
 #navbar a{
   color:#c8b2df;
   text-decoration: none;
+ font-family: navbarEcontatos;
   font-size: 17px;
   display: block;
   padding: 10px;
@@ -78,16 +83,30 @@ font-weight: lighter;
 }
 
 /* projetos */
+@font-face{
+  font-family: projetos;
+  src: url(Shining\ Times.ttf);
+}
 #projects{
   min-height: 100vh;
-  padding-top: 35vh;
+  padding-top: 15vh;
+}
+#projects h1{
+  text-align: center;
+font-family: projetos;
+font-size: 8vw;
+font-weight: lighter;
+color: #cbd277;
+}
+#circulos{
+  padding-top: 8vh;
   display: flex;
   flex-flow: row nowrap;
 justify-content: space-evenly;
 align-items: baseline;
 }
 @media screen and (max-width: 720px){
-#projects{
+#circulos{
   flex-flow: column nowrap;
   justify-content: space-evenly;
   align-items: center;
@@ -96,6 +115,7 @@ align-items: baseline;
 
 /*contato */
 footer{
+ font-family: navbarEcontatos;
   min-height: 30vh;
   background-color: #9a93a1;
   color: #4b494d;
@@ -103,6 +123,9 @@ footer{
 width: 109%;
 margin: 0 0 0 -19px;
 padding: 0;
+}
+footer p{
+  font-size: x-large;
 }
 footer a{
   text-decoration: none;
