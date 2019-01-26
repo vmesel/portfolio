@@ -81,6 +81,7 @@ font-weight: lighter;
 #welcome-section p{
   text-align: center;
   color: #adda85;
+  font-size: 2.5vw;
 }
 
 /* projetos */
@@ -129,11 +130,12 @@ padding: 0;
   padding-top: 2vh;
 }
 footer p{
-  font-size: x-large;
+  font-size: 4vw;
 }
 footer a{
   text-decoration: none;
   color: #4b494d;
+  font-size: 2vw;
 }
 footer a:hover{
   color: #4b494d;
