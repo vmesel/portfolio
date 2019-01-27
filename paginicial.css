@@ -24,6 +24,7 @@ body{
   overflow: hidden;
   margin: 0 0 0 -19px;
   padding: 0;
+right: 0;
   background-color: #b579ae;
   text-align: center
 }
@@ -75,13 +76,13 @@ ul{
 color:#96a341;
   text-align: center;
 font-family: meuNome;
-font-size: 10vw;
+font-size: 80px;
 font-weight: lighter;
 }
 #welcome-section p{
   text-align: center;
   color: #adda85;
-  font-size: 2.5vw;
+  font-size: 20px;
 }
 
 /* projetos */
@@ -96,7 +97,7 @@ font-weight: lighter;
 #projects h1{
   text-align: center;
 font-family: projetos;
-font-size: 8vw;
+font-size: 60px;
 font-weight: lighter;
 color: #80853e;
 }
@@ -116,26 +117,27 @@ align-items: baseline;
 }
 
 /*contato */
-footer{
+#footer{
  font-family: navbarEcontatos;
   min-height: 30vh;
   background-color: #bfb8c7;
   color: #4b494d;
   text-align: left;
-width: 109%;
-margin: 0 0 0 -19px;
+width: 100%;
+margin: 0;
 padding: 0;
-}
-#footer{
-  padding-top: 2vh;
+right: 0;
+left: 0;
+bottom: 0;
+border: 0;
 }
 footer p{
-  font-size: 4vw;
+  font-size: 30px;
 }
 footer a{
   text-decoration: none;
   color: #4b494d;
-  font-size: 2vw;
+  font-size: 15px;
 }
 footer a:hover{
   color: #4b494d;

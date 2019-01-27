@@ -17,6 +17,7 @@ body{
     overflow: hidden;
     margin: 0 0 0 -19px;
     padding: 0;
+    right: 0;
     background-color: #b579ae;
     text-align: center
   }
@@ -108,6 +109,9 @@ color: #96a341;
     .exemplos p{
         font-size: 15px;
     }
+    #ultima{
+        padding-bottom: 35px;
+    }
   /*contato */
 footer{
     font-family: navbarEcontatos;
@@ -115,12 +119,15 @@ footer{
      background-color: #bfb8c7;
      color: #4b494d;
      text-align: left;
-   width: 109%;
+   width: 100%;
    margin: 0 0 0 -19px;
    padding: 0;
    }
    #footer{
-     padding-top: 2vh;
+     padding-top: 15px;
+     padding-left: 12px;
+     padding-bottom: 0;
+     bottom: 0;
    }
    footer p{
      font-size: 30px;
