@@ -1,0 +1,289 @@
+/* body */
+body{
+    background-color: #dfdce4;
+  }
+
+  /*barra de navegação*/
+  @font-face{
+    font-family: Philosopher;
+   }
+  #navbar{
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 0 -19px;
+    padding: 0;
+    right: 0;
+    background-color: #b579ae;
+    text-align: center
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar li{
+    float: left;
+  }
+
+  #navbar a{
+    color:#c8b2df;
+    text-decoration: none;
+   font-family: navbarEcontatos;
+    font-size: 17px;
+    display: block;
+    padding: 10px;
+    float: left;
+  }
+
+  #navbar a:hover{
+    background-color:#c8b2df;
+    color: #b579ae;
+  }
+  .voltar a{
+      float: right;
+  }
+  @media screen and (max-width: 720px){
+    #navbar{
+      flex-direction: column;
+    }
+    #navbar a{
+      float: none;
+    }
+  }
+/* Projetos */
+#principal{
+    top: 0;
+      min-height: 55vh;
+      padding-top: 5vh;
+}
+@media screen and (max-width: 720px){
+#principal{
+top: 0;
+  min-height: 55vh;
+  padding-top: 35vh;
+}
+}
+@font-face{
+    font-family: projetos;
+    src: url(Shining\ Times.ttf);
+  }
+  #principal h1{
+    text-align: center;
+  font-family: projetos;
+  font-size: 60px;
+  font-weight: lighter;
+  color: #80853e;
+  }
+  #principal ul{
+      font-family: projetos;
+      font-weight:lighter;
+      font-size: 30px;
+  }
+  #principal img{
+      width: 10%;
+      border-radius: 50%;
+      float: left;
+  }
+  #reps{
+color: #96a341;
+  }
+  #outros{
+  color:#80853e;
+  }
+  #av{
+      color: #adda85;
+  }
+  .exemplos{
+      font-family:navbarEcontatos; /*isso tem que mudar*/
+  font-size: 20px;
+  padding-top: 35px;
+    }
+    .exemplos a{
+        text-decoration: none;
+  color:#4b494d;
+    }
+    .exemplos p{
+        font-size: 15px;
+    }
+    .ultima{
+        padding-bottom: 35px;
+    }
+  /*contato */
+footer{
+    font-family: navbarEcontatos;
+     min-height: 15rem;
+     background-color: #bfb8c7;
+     color: #4b494d;
+     text-align: left;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+   }
+   #footer{
+     padding-top: 15px;
+     padding-left: 12px;
+     padding-bottom: 0;
+     bottom: 0;
+   }
+   footer p{
+     font-size: 30px;
+   }
+   footer a{
+     text-decoration: none;
+     color: #4b494d;
+     font-size: 15px;
+   }
+   footer a:hover{
+     color: #4b494d;
+   }
+
+
+   /*color scheme: http://colorpalettes.net/color-palette-2032/
+   coisas novas: roxo pra navbar, com letras mais claras e fundo mais escuro e inverte quando passa o mouse
+   ao invés de destaques, categorias em círculos verdes de tons diferentes (audiovisual, reportagens, outros) que levam pra outra página
+   footer com nome grande, telefone, emails e linkedin, fundo cinza claro, letras cinza bem escuro, tudo no canto esquerdo
+   rebecca gompertz com fonte fancy em preto, minibio tb em preto mas em outra fonte
+   página com a reps segue ordem dos circulos, tem chapéu */
+
+   /* body */
+   body{
+     background-color: #dfdce4;
+   }
+
+   /*barra de navegação*/
+   @font-face{
+     font-family: Philosopher;
+    }
+   #navbar{
+     display: flex;
+     flex-flow: row wrap;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     overflow: hidden;
+     margin: 0 0 0 -19px;
+     padding: 0;
+   right: 0;
+     background-color: #b579ae;
+     text-align: center
+   }
+
+   ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+
+   #navbar li{
+     float: left;
+   }
+
+   #navbar a{
+     color:#c8b2df;
+     text-decoration: none;
+    font-family: navbarEcontatos;
+     font-size: 17px;
+     display: block;
+     padding: 10px;
+     float: left;
+   }
+
+   #navbar a:hover{
+     background-color:#c8b2df;
+     color: #b579ae;
+   }
+   @media screen and (max-width: 720px){
+     #navbar{
+       flex-direction: column;
+     }
+     #navbar a{
+       float: none;
+     }
+   }
+
+   /* sobre (welcome-section)*/
+   #welcome-section{
+     top: 0;
+     min-height: 55vh;
+     padding-top: 35vh;
+   }
+   @font-face{
+    font-family:
+    src: url(High\ Destiny\ -\ Personal\ Use.otf);
+   }
+   #welcome-section h1{
+   color:#96a341;
+     text-align: center;
+   font-family: meuNome;
+   font-size: 80px;
+   font-weight: lighter;
+   }
+
+   #welcome-section p{
+     text-align: center;
+     color: #adda85;
+   font-family: textos;
+     font-size: 20px;
+   }
+
+   /* projetos */
+   #projects{
+     min-height: 100vh;
+     padding-top: 15vh;
+   }
+   #projects h1{
+     text-align: center;
+   font-family: projetos;
+   font-size: 60px;
+   font-weight: lighter;
+   color: #80853e;
+   }
+   #circulos{
+     padding-top: 8vh;
+     display: flex;
+     flex-flow: row nowrap;
+   justify-content: space-evenly;
+   align-items: baseline;
+   }
+   @media screen and (max-width: 720px){
+   #circulos{
+     flex-flow: column nowrap;
+     justify-content: space-evenly;
+     align-items: center;
+   }
+   }
+
+   /*contato */
+   footer{
+    font-family: navbarEcontatos;
+     height: 15rem;
+     background-color: #bfb8c7;
+     color: #4b494d;
+     text-align: left;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+   }
+   #footer{
+     padding-top: 15px;
+     padding-left: 12px;
+     padding-bottom: 0;
+     bottom: 0;
+   }
+   footer p{
+     font-size: 30px;
+   }
+   footer a{
+     text-decoration: none;
+     color: #4b494d;
+     font-size: 15px;
+   }
+   footer a:hover{
+     color: #4b494d;
+   }

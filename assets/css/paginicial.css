@@ -2,7 +2,7 @@
 coisas novas: roxo pra navbar, com letras mais claras e fundo mais escuro e inverte quando passa o mouse
 ao invés de destaques, categorias em círculos verdes de tons diferentes (audiovisual, reportagens, outros) que levam pra outra página
 footer com nome grande, telefone, emails e linkedin, fundo cinza claro, letras cinza bem escuro, tudo no canto esquerdo
-rebecca gompertz com fonte fancy em preto, minibio tb em preto mas em outra fonte 
+rebecca gompertz com fonte fancy em preto, minibio tb em preto mas em outra fonte
 página com a reps segue ordem dos circulos, tem chapéu */
 
 /* body */
@@ -12,8 +12,7 @@ body{
 
 /*barra de navegação*/
 @font-face{
-  font-family: navbarEcontatos;
-  src: url(Philosopher-Regular.ttf);
+  font-family: Philosopher;
  }
 #navbar{
   display: flex;
@@ -69,7 +68,7 @@ ul{
   padding-top: 35vh;
 }
 @font-face{
- font-family: meuNome;
+ font-family:
  src: url(High\ Destiny\ -\ Personal\ Use.otf);
 }
 #welcome-section h1{
@@ -78,10 +77,6 @@ color:#96a341;
 font-family: meuNome;
 font-size: 80px;
 font-weight: lighter;
-}
-@font-face{
-  font-family: textos;
-  src: url(CapsuulaRegular.tff);
 }
 
 #welcome-section p{
@@ -92,10 +87,6 @@ font-family: textos;
 }
 
 /* projetos */
-@font-face{
-  font-family: projetos;
-  src: url(Shining\ Times.ttf);
-}
 #projects{
   min-height: 100vh;
   padding-top: 15vh;
