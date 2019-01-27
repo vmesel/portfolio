@@ -83,8 +83,9 @@ top: 0;
       font-size: 30px;
   }
   #principal img{
-      width: 20%;
+      width: 10%;
       border-radius: 50%;
+      float: left;
   }
   #reps{
 color: #96a341;
@@ -98,6 +99,14 @@ color: #96a341;
   .exemplos{
       font-family:navbarEcontatos; /*isso tem que mudar*/
   font-size: 20px;
+  padding-top: 35px;
+    }
+    .exemplos a{
+        text-decoration: none;
+  color:#4b494d;
+    }
+    .exemplos p{
+        font-size: 15px;
     }
   /*contato */
 footer{
