@@ -79,9 +79,15 @@ font-family: meuNome;
 font-size: 80px;
 font-weight: lighter;
 }
+@font-face{
+  font-family: textos;
+  src: url(CapsuulaRegular.tff);
+}
+
 #welcome-section p{
   text-align: center;
   color: #adda85;
+font-family: textos;
   font-size: 20px;
 }
 
@@ -117,19 +123,21 @@ align-items: baseline;
 }
 
 /*contato */
-#footer{
+footer{
  font-family: navbarEcontatos;
-  min-height: 30vh;
+  height: 15rem;
   background-color: #bfb8c7;
   color: #4b494d;
   text-align: left;
-width: 100%;
-margin: 0;
-padding: 0;
-right: 0;
-left: 0;
-bottom: 0;
-border: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+#footer{
+  padding-top: 15px;
+  padding-left: 12px;
+  padding-bottom: 0;
+  bottom: 0;
 }
 footer p{
   font-size: 30px;

@@ -46,6 +46,9 @@ body{
     background-color:#c8b2df;
     color: #b579ae;
   }
+  .voltar a{
+      float: right;
+  }
   @media screen and (max-width: 720px){
     #navbar{
       flex-direction: column;
@@ -92,10 +95,10 @@ top: 0;
 color: #96a341;
   }
   #outros{
-  color:  #adda85;
+  color:#80853e;  
   }
   #av{
-      color: #80853e;
+      color: #adda85;
   }
   .exemplos{
       font-family:navbarEcontatos; /*isso tem que mudar*/
@@ -109,20 +112,20 @@ color: #96a341;
     .exemplos p{
         font-size: 15px;
     }
-    #ultima{
+    .ultima{
         padding-bottom: 35px;
     }
   /*contato */
 footer{
     font-family: navbarEcontatos;
-     min-height: 30vh;
+     min-height: 15rem;
      background-color: #bfb8c7;
      color: #4b494d;
      text-align: left;
-   width: 100%;
-   margin: 0 0 0 -19px;
-   padding: 0;
-   }
+     left: 0;
+     bottom: 0;
+     width: 100%;
+   } 
    #footer{
      padding-top: 15px;
      padding-left: 12px;
